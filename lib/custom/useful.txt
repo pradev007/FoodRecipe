@@ -1,0 +1,404 @@
+            // child: Center(
+            //   child: Column(
+            //     mainAxisAlignment: MainAxisAlignment.end,
+            //     children: [
+            //       Text(
+            //         foodName,
+            //         textAlign: TextAlign.center,
+            //         style: const TextStyle(
+            //             fontSize: 17,
+            //             fontWeight: FontWeight.w600,
+            //             color: FoodColor.colourStylesNeutralColourGray1),
+            //       ),
+            //       const SizedBox(height: 15.0),
+            //       Padding(
+            //         padding: const EdgeInsets.only(left: 8.0),
+            //         child: Row(
+            //           // crossAxisAlignment: CrossAxisAlignment.start,
+            //           children: [
+            //             Row(
+            //               crossAxisAlignment: CrossAxisAlignment.start,
+            //               children: [
+            //                 Column(
+            //                   crossAxisAlignment: CrossAxisAlignment.start,
+            //                   children: [
+            //                     const Text(
+            //                       "Time",
+            //                       style: TextStyle(
+            //                           color: FoodColor
+            //                               .colourStylesNeutralColourGray3),
+            //                     ),
+            //                     Text(
+            //                       time,
+            //                       style: const TextStyle(
+            //                           color: FoodColor
+            //                               .colourStylesNeutralColourGray1),
+            //                     ),
+            //                   ],
+            //                 ),
+            //                 const Padding(padding: EdgeInsets.only(left: 50.0)),
+            //                 Container(
+            //                   decoration: BoxDecoration(
+            //                       color:
+            //                           FoodColor.colourStylesNeutralColourWhite,
+            //                       border: Border.all(
+            //                           color: FoodColor
+            //                               .colourStylesNeutralColourWhite),
+            //                       borderRadius: const BorderRadius.all(
+            //                           Radius.circular(20.0))),
+            //                   child: const Icon(
+            //                     Icons.bookmark_border_rounded,
+            //                     color: FoodColor
+            //                         .colourStylesPrimaryColourPrimary80,
+            //                   ),
+            //                 )
+            //               ],
+            //             ),
+            //           ],
+            //         ),
+            //       ),
+            //     ],
+            //   ),
+            // ),
+
+
+            ??
+            //
+            Positioned(
+          //   right: -50.0,
+          //   top: -110.0,
+          //   // child: Image.asset(
+          //   //   // imageUrl,
+          //   //   //
+          //   //   //
+
+          //   //   // fit: BoxFit.cover,
+          //   //   height: 250.0,
+          //   //   scale: 8.0,
+          //   // ),
+
+          // )
+
+
+
+
+
+
+
+          // New Recipe code from firstPage:
+              // Start of different types of "New Recipes by different chefs"
+              //
+              // SizedBox(
+              //   height: 150.0,
+              //   // width: MediaQuery.of(context).size.width,
+              //   child: ListView(
+              //     scrollDirection: Axis.horizontal,
+              //     children: const [
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //     ],
+              //   ),
+              // ),
+              // //
+              // // of different types of "New Recipes by different chefs"
+              // //
+              // // Duplicates
+              // SizedBox(
+              //   height: 150.0,
+              //   // width: MediaQuery.of(context).size.width,
+              //   child: ListView(
+              //     scrollDirection: Axis.horizontal,
+              //     children: const [
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //     ],
+              //   ),
+              // ),
+              // //
+              // //
+              // //
+              // SizedBox(
+              //   height: 150.0,
+              //   // width: MediaQuery.of(context).size.width,
+              //   child: ListView(
+              //     scrollDirection: Axis.horizontal,
+              //     children: const [
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //       SizedBox(
+              //         height: 100.0,
+              //         width: 300.0,
+              //         child: NewRecipe(
+              //           newFoodRecipeName: 'Steak with tomato and wings',
+              //           newFoodRecipeImageUrl: 'assets/greenSalad.png',
+              //           newRecipeUserName: 'Pradip Devota',
+              //           newRecipeUserImageUrl: 'assets/dev.jpg',
+              //           newRecipeTime: '20 Mins',
+              //         ),
+              //       ),
+              //       SizedBox(width: 20.0),
+              //     ],
+              //   ),
+              // ),
+              //
+              //
+              //
+
+
+
+
+
+              import 'package:flutter/material.dart';
+
+class BottomDragRecipe extends StatefulWidget {
+  const BottomDragRecipe({Key? key}) : super(key: key);
+
+  @override
+  State<BottomDragRecipe> createState() => _BottomDragRecipeState();
+}
+
+class _BottomDragRecipeState extends State<BottomDragRecipe> {
+  final List<Map<String, dynamic>> ingredients = [
+    {
+      'name': 'Inategridients 1',
+      'imageUrl': 'assets/dev.jpg',
+      'process': 'this is process',
+    },
+    {
+      'name': 'Inategridients 2',
+      'imageUrl': 'assets/dev.jpg',
+      'process': 'this is process',
+    },
+    {
+      'name': 'Inategridients 3',
+      'imageUrl': 'assets/dev.jpg',
+      'process': 'this is process',
+    },
+    {
+      'name': 'Inategridients 4',
+      'imageUrl': 'assets/dev.jpg',
+      'process': 'this is process',
+    },
+    {
+      'name': 'Inategridients 5',
+      'imageUrl': 'assets/dev.jpg',
+      'process': 'this is process',
+    },
+    {
+      'name': 'Inategridients 6',
+      'imageUrl': 'assets/dev.jpg',
+      'process': 'this is process',
+    },
+    {
+      'name': 'Inategridients 7',
+      'imageUrl': 'assets/dev.jpg',
+      'process': 'this is process',
+    },
+    {
+      'name': 'Inategridients 8',
+      'imageUrl': 'assets/dev.jpg',
+      'process': 'this is process',
+    },
+    {
+      'name': 'Inategridients 9',
+      'imageUrl': 'assets/dev.jpg',
+      'process': 'this is process',
+    },
+    {
+      'name': 'Inategridients 10',
+      'imageUrl': 'assets/dev.jpg',
+      'process': 'this is process',
+    },
+    // Add other ingredients here...
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: _getDraggableScrollableSheet(),
+    );
+  }
+
+  Widget _getDraggableScrollableSheet() {
+    return DraggableScrollableSheet(
+      minChildSize: 0.4,
+      maxChildSize: 0.4,
+      initialChildSize: 0.4,
+      builder: (context, scrollController) {
+        return SingleChildScrollView(
+          child: Container(
+            margin: const EdgeInsets.only(top: 400),
+            height: MediaQuery.of(context).size.height * 0.8,
+            decoration: const BoxDecoration(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(15),
+                topRight: Radius.circular(15),
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Color.fromARGB(255, 197, 197, 197),
+                  blurRadius: 25,
+                  spreadRadius: 20.0,
+                  offset: Offset(0.0, 25.0),
+                )
+              ],
+              color: Color.fromARGB(221, 255, 255, 255),
+            ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Container(
+                  height: 4,
+                  width: 100,
+                  color: Colors.greenAccent,
+                ),
+                SizedBox(
+                  height: MediaQuery.of(context).size.height * 0.7,
+                  child: ListView.builder(
+                    itemCount: ingredients.length,
+                    shrinkWrap: true,
+                    itemBuilder: (context, index) {
+                      return ListTile(
+                        leading: CircleAvatar(
+                          child: Image.asset(ingredients[index]['imageUrl']),
+                        ),
+                        title: Text(ingredients[index]['name']),
+                        subtitle: const Text("Ingredient Quantity"),
+                      );
+                    },
+                  ),
+                ),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+}
